@@ -26,7 +26,6 @@ Sample Output 2 :
 import java.lang.Math;
 import java.util.Scanner;
 public class decimalToBinary{
-	
 	public static void main(String[] args) {
 		// Write your code here
 		Scanner sc=new Scanner(System.in);
@@ -38,19 +37,15 @@ public class decimalToBinary{
 		System.out.print(0);
 		else
 		{
-		
 		while(n!=0)
 		{
 			r=n%2;
-			
 			st = Integer.toString(r)+st;
-			
 			n = n/2;
 		}
 		if(n==1)
 		st = st+'1';
 		System.out.print(st);
 		}
-
 	}
 }
